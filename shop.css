@@ -36,6 +36,7 @@ img{
 }
 
 .navbar{
+    height: 140px;
     background: rgba(56, 38, 18, 0.692);
     padding: 1.2rem; 
     flex-direction: row;
@@ -130,18 +131,18 @@ img{
   
  }
 
- .odezhda1{
+.odezhda1{
      width:620px;
      height: 600px;
      position: relative;
-     bottom:860px;
+     bottom:870px;
      left: 90px;
  }
  .odezhda2{
     width:625px;
     height: 400px;
     position: relative;
-    bottom:1460px;
+    bottom:1470px;
     left:810px;
  }
 
@@ -149,7 +150,7 @@ img{
     width:620px;
     height: 600px;
     position: relative;
-    bottom:990px;
+    bottom:970px;
     left:90px;
  }
 
@@ -157,30 +158,36 @@ img{
     width:620px;
     height: 600px;
     position: relative;
-    bottom:1590px;
+    bottom:1570px;
     left:810px;
  }
 
-.clth1{
+#clth1{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size:30px;
+    width: 250px;
+    height: 50px;
     position: relative;
     bottom:2230px;
-    left:300px;
+    left:280px;
+    letter-spacing: 4px;
 
 }  
-.clth2{
+#clth2{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size:30px;
+    width: 250px;
+    height: 50px;
     position: relative;
-    bottom:2270px;
-    left:1050px;
+    bottom:2230px;
+    left:790px;
+    letter-spacing: 4px;
 }  
 .Actual{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size:40px;
     position: relative;
-    bottom:1250px;
+    bottom:1200px;
     left: 500px;
 }  
 .design{
@@ -254,6 +261,35 @@ img{
 .carousel-control-next{
     background-color:black;
     width: 20px;
+}
+
+.plate1{
+    width:620px;
+    height: 830px;
+    position: relative;
+    bottom:1100px;
+    left:90px;
+ }
+
+.plate2{
+    width:620px;
+    height: 830px;
+    position: relative;
+    bottom:1930px;
+    left:810px;
+ }
+#btn1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:30px;
+     width: 500px;
+     height: 60px;
+     position: relative;
+     bottom: 1900px;
+     left: 520px;
+     letter-spacing: 7px;
+}
+.btn a{
+    color:black;
 }
 
 footer{
