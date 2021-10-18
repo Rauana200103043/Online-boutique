@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+
+
+:root{
+    --Playfair: 'Playfair Display', serif;
+    --Quicksand: 'Quicksand', sans-serif;
+    --Roboto: 'Roboto', sans-serif;
+    --dark: #3c393d;
+    --exDark: #2b2b2b;
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: var(--Quicksand);
+}
+
+body{
+    line-height: 1.4;
+    color: var(--dark);
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+.header{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+
+.navbar{
+    background: rgba(56, 38, 18, 0.692);
+    padding: 1.2rem; 
+    flex-direction: row;
+    align-items:center;
+}
+
+.navbar-brand{
+    color: #fff;
+    font-size: 60px;
+    display: block;
+    text-decoration: none;
+    font-family: var(--Playfair);
+    letter-spacing: 7px;
+}
+
+.navbar-nav{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    position: relative;
+    right: 50px;
+}
+
+.navbar-nav a{
+    text-transform: uppercase;
+    font-family: var(--Roboto);
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.80rem;
+    letter-spacing: 7px;
+    transition: opacity 0.5s ease;
+}
+
+.navbar-nav a:hover{
+     opacity: 0.7;
+}
+.search-input{
+    width: 200px;
+    height: 40px;
+}
+.search-btn{
+    width:50px;
+    background-color:#f9f9f9;
+}
+.search1{
+    display:flex;
+    flex-direction: row;
+}
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 1.2rem;
+}
+
+.fon{
+    background-color:rgb(248, 234, 203); 
+    width:1000px ;
+    height:555px;
+    position: relative;
+    left:390px;
+    margin-top:60px;
+    bottom: 22px;
+ }
+ 
+.fon2{
+ 
+     background-color:rgb(196, 187, 162); 
+     width:1000px ;
+     height:590px;
+     position: relative;
+     bottom:600px;
+     right:110px;
+ }
+ .zastavka{
+     width:440px;
+     height: 200px;
+     padding-left:30px;
+     position: relative;
+     bottom:1px;
+     left: 15px;
+  
+ }
+ .zastavka2{
+     width: 440px;
+     position: relative;
+     height: 180px;
+     position: relative;
+     left: 500px;
+     bottom: 170px;
+  
+ }
+
+ .odezhda1{
+     width:620px;
+     height: 600px;
+     position: relative;
+     bottom:860px;
+     left: 90px;
+ }
+ .odezhda2{
+    width:625px;
+    height: 400px;
+    position: relative;
+    bottom:1460px;
+    left:810px;
+ }
+
+ .odezhda3{
+    width:620px;
+    height: 600px;
+    position: relative;
+    bottom:990px;
+    left:90px;
+ }
+
+ .odezhda4{
+    width:620px;
+    height: 600px;
+    position: relative;
+    bottom:1590px;
+    left:810px;
+ }
+
+.clth1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:30px;
+    position: relative;
+    bottom:2230px;
+    left:300px;
+
+}  
+.clth2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:30px;
+    position: relative;
+    bottom:2270px;
+    left:1050px;
+}  
+.Actual{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:40px;
+    position: relative;
+    bottom:1250px;
+    left: 500px;
+}  
+.design{
+
+    padding: 4.5rem 0;
+
+}
+
+.fo{
+    padding: 1rem 0;
+
+}
+
+.fo p{
+    font-family:"Times New Roman", Georgia, Serif;
+     font-size:70px;
+    position: relative;
+    bottom:1190px;
+    left:1140px;
+}
+.fo1{
+    font-family:"Times New Roman", Georgia, Serif;
+    font-size:30px;
+    position: relative;
+    bottom:1190px;
+    left:1050px;
+}  
+
+.fo2{
+    font-family:"Times New Roman", Georgia, Serif;
+    font-size:30px;
+    position: relative;
+    bottom:1190px;
+    left:1130px;
+}  
+
+.fo3{
+    font-family:"Times New Roman", Georgia, Serif;
+  font-size:30px;
+   position: relative;
+   bottom:1160px;
+   left:1050px;
+}  
+
+.fo4{
+    font-family:"Times New Roman", Georgia, Serif;
+    font-size:30px;
+    position: relative;
+    bottom:1120px;
+    left:1030px;
+}  
+#demo{
+     position: relative;
+     bottom:1200px;
+}
+.carousel-inner{
+    display:block;
+    padding-left: 40px;
+}
+
+.carousel-inner img{
+     width: 300px;
+     height: 300px;
+}
+
+.carousel-control-prev{
+    background-color:black;
+    width: 20px;
+}
+
+.carousel-control-next{
+    background-color:black;
+    width: 20px;
+}
+
+footer{
+    background-color:rgba(56, 38, 18, 0.692);
+    color: rgb(253, 249, 249);
+    text-align: center;
+    padding-top:20px;
+    padding-bottom: 30px;
+}
+
+.name{
+    padding-top: 15px;
+    font-size: 40px;
+}
+#email_label{
+    font-size: 30px;
+}
+#email{
+    font-size: 20px;
+}
+#ack{
+    font-size: 25px;
+}
+.search{
+    display:flex;
+    position: relative;
+    left:550px;
+    top: 30px;
+}
+
+.link{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    position: relative;
+    top: 50px;
+}
+
+.link a{
+    border: 2px solid #fff;
+    color: #fff;
+    display: block;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin: 0 0.9rem;
+    transition: all 0.5s ease;
+    position: relative;
+    top: 40px;
+}
+
+
+
+.link a:hover{
+    background: #fff;
+    color: var(--exDark);
+}
+
+.down1{
+    font-size: 40px;
+    position:relative;
+    bottom:100px;
+    right:400px;
+ }
+ 
+ .down1 a{
+     color:#f9f9f9;
+ }
+
+ .down2{
+    font-size: 40px;
+    position:relative;
+    bottom:170px;
+    left:440px;
+ }
+ 
+ .down2 a{
+     color:#f9f9f9;
+ }
