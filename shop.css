@@ -1,374 +1,230 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap');
+<!DOCTYPE html>
 
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>BE VERY</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="shop.css">
+  </head>
 
-
-
-:root{
-    --Playfair: 'Playfair Display', serif;
-    --Quicksand: 'Quicksand', sans-serif;
-    --Roboto: 'Roboto', sans-serif;
-    --dark: #3c393d;
-    --exDark: #2b2b2b;
-
-}
-
-*{
-    padding: 0;
-    margin: 0;
-    font-family: var(--Quicksand);
-}
-
-body{
-    line-height: 1.4;
-    color: var(--dark);
-}
-
-img{
-    width: 100%;
-    display: block;
-}
-
-.header{
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: stretch;
-}
-
-.navbar{
-    height: 140px;
-    background: rgba(56, 38, 18, 0.692);
-    padding: 1.2rem; 
-    flex-direction: row;
-    align-items:center;
-}
-
-.navbar-brand{
-    color: #fff;
-    font-size: 60px;
-    display: block;
-    text-decoration: none;
-    font-family: var(--Playfair);
-    letter-spacing: 7px;
-}
-
-.navbar-nav{
-    display: flex;
-    flex-direction:row;
-    align-items: center;
-    position: relative;
-    right: 50px;
-}
-
-.navbar-nav a{
-    text-transform: uppercase;
-    font-family: var(--Roboto);
-    font-weight: 500;
-    color: #fff;
-    text-decoration: none;
-    display: inline-block;
-    padding: 0.80rem;
-    letter-spacing: 7px;
-    transition: opacity 0.5s ease;
-}
-
-.navbar-nav a:hover{
-     opacity: 0.7;
-}
-.search-input{
-    width: 200px;
-    height: 40px;
-}
-.search-btn{
-    width:50px;
-    background-color:#f9f9f9;
-}
-.search1{
-    display:flex;
-    flex-direction: row;
-}
-.container{
-    max-width: 1320px;
-    margin: 0 auto;
-    padding: 0 1.2rem;
-}
-
-.fon{
-    background-color:rgb(248, 234, 203); 
-    width:1000px ;
-    height:555px;
-    position: relative;
-    left:390px;
-    margin-top:60px;
-    bottom: 22px;
- }
- 
-.fon2{
- 
-     background-color:rgb(196, 187, 162); 
-     width:1000px ;
-     height:590px;
-     position: relative;
-     bottom:600px;
-     right:110px;
- }
- .zastavka{
-     width:440px;
-     height: 200px;
-     padding-left:30px;
-     position: relative;
-     bottom:1px;
-     left: 15px;
+  <body>
+     
+     <header>
+        <nav class = "navbar">
+         <div class = "container">
+          <div class = "navbar-nav">
+           <a href = "shop.html" class = "navbar-brand">BE VERY</a>
+          <a href = "Shop.html">Главное</a>
+          <a href = "Odezhda.html">Одежда</a>
+          <a href = "Dress.html">Платья</a>
+          <a href = "Acc.html">Аксессуары</a>
+          <a href = "Tufli.html">Туфли</a>
+           <form class="search1">
+            <input type = "text" class = "search-input" placeholder="Поиск...">
+            <button type = "submit" class = "search-btn"><i class = "fas fa-search"></i></button>
+           </form>
+         </div>
+         </div>
+        </nav>
+     </header>
+     <div class = "container">
+      <div class = "fon"> 
+      </div>
+       <div class = "fon2"> 
+        <div class = "zastavka">
+          <img src = "img/заставка1.jpg" alt = "">
+        </div>
+        <div class = "zastavka2">
+           <img src = "img/заставка2.jpg" alt = "">
+        </div>
+       </div>
+    </div>
   
- }
- .zastavka2{
-     width: 440px;
-     position: relative;
-     height: 180px;
-     position: relative;
-     left: 500px;
-     bottom: 170px;
+    <div class = "fo">
+       <p>BE VERY</p>
+    </div>
+
+    <div class = "fo1">
+      <p1>"Clothes are the easiest way to</p1>
+    </div>
+
+    <div class = "fo2">
+      <p2>reveal your identity"...</p2>
+    </div>
   
- }
+    <div class = "fo3">
+      <p3>!Be yourself Be stylish Be elegan!</p3>
+    </div>
 
-.odezhda1{
-     width:620px;
-     height: 600px;
-     position: relative;
-     bottom:870px;
-     left: 90px;
- }
- .odezhda2{
-    width:625px;
-    height: 400px;
-    position: relative;
-    bottom:1470px;
-    left:810px;
- }
+    <div class = "fo4">
+      <p3>Therefore, dress with taste with us</p3>
+    </div>
+  
+    <div class = "odezhda1"> 
+      <img src = "img/одежда1.jpg" alt = "">
+    </div>
 
- .odezhda3{
-    width:620px;
-    height: 600px;
-    position: relative;
-    bottom:970px;
-    left:90px;
- }
+    <div class = "odezhda2"> 
+      <img src = "img/одежда2.jpg" alt = "">
+    </div>
 
- .odezhda4{
-    width:620px;
-    height: 600px;
-    position: relative;
-    bottom:1570px;
-    left:810px;
- }
+    <div class = "odezhda3"> 
+      <img src = "img/одежда3.jpg" alt = "">
+    </div>
 
-#clth1{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size:30px;
-    width: 250px;
-    height: 50px;
-    position: relative;
-    bottom:2230px;
-    left:280px;
-    letter-spacing: 4px;
+    <div class = "odezhda4"> 
+      <img src = "img/одежда4.jpg" alt = "">
+    </div>
 
-}  
-#clth2{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size:30px;
-    width: 250px;
-    height: 50px;
-    position: relative;
-    bottom:2230px;
-    left:790px;
-    letter-spacing: 4px;
-}  
-.Actual{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size:40px;
-    position: relative;
-    bottom:1200px;
-    left: 500px;
-}  
-.design{
+    <button type="button" id="clth1" class="btn btn-outline-dark"><a href>НОВИНКИ</a></button>
+    <button type="button" id="clth2" class="btn btn-outline-dark"><a href>НОВИНКИ</a></button>
 
-    padding: 4.5rem 0;
-
-}
-
-.fo{
-    padding: 1rem 0;
-
-}
-
-.fo p{
-    font-family:"Times New Roman", Georgia, Serif;
-     font-size:70px;
-    position: relative;
-    bottom:1190px;
-    left:1140px;
-}
-.fo1{
-    font-family:"Times New Roman", Georgia, Serif;
-    font-size:30px;
-    position: relative;
-    bottom:1190px;
-    left:1050px;
-}  
-
-.fo2{
-    font-family:"Times New Roman", Georgia, Serif;
-    font-size:30px;
-    position: relative;
-    bottom:1190px;
-    left:1130px;
-}  
-
-.fo3{
-    font-family:"Times New Roman", Georgia, Serif;
-  font-size:30px;
-   position: relative;
-   bottom:1160px;
-   left:1050px;
-}  
-
-.fo4{
-    font-family:"Times New Roman", Georgia, Serif;
-    font-size:30px;
-    position: relative;
-    bottom:1120px;
-    left:1030px;
-}  
-#demo{
-     position: relative;
-     bottom:1200px;
-}
-.carousel-inner{
-    display:block;
-    padding-left: 40px;
-}
-
-.carousel-inner img{
-     width: 300px;
-     height: 300px;
-}
-
-.carousel-control-prev{
-    background-color:black;
-    width: 20px;
-}
-
-.carousel-control-next{
-    background-color:black;
-    width: 20px;
-}
-
-.plate1{
-    width:620px;
-    height: 830px;
-    position: relative;
-    bottom:1100px;
-    left:90px;
- }
-
-.plate2{
-    width:620px;
-    height: 830px;
-    position: relative;
-    bottom:1930px;
-    left:810px;
- }
-#btn1{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size:30px;
-     width: 500px;
-     height: 60px;
-     position: relative;
-     bottom: 1900px;
-     left: 520px;
-     letter-spacing: 7px;
-}
-.btn a{
-    color:black;
-}
-
-footer{
-    background-color:rgba(56, 38, 18, 0.692);
-    color: rgb(253, 249, 249);
-    text-align: center;
-    padding-top:20px;
-    padding-bottom: 30px;
-}
-
-.name{
-    padding-top: 15px;
-    font-size: 40px;
-}
-#email_label{
-    font-size: 30px;
-}
-#email{
-    font-size: 20px;
-}
-#ack{
-    font-size: 25px;
-}
-.search{
-    display:flex;
-    position: relative;
-    left:550px;
-    top: 30px;
-}
-
-.link{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 2rem;
-    position: relative;
-    top: 50px;
-}
-
-.link a{
-    border: 2px solid #fff;
-    color: #fff;
-    display: block;
-    width: 60px;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50px;
-    margin: 0 0.9rem;
-    transition: all 0.5s ease;
-    position: relative;
-    top: 40px;
-}
+      <div class="Actual"><p>АКТУАЛЬНЫЕ АКСЕССУАРЫ</p></div>
+    <div id="demo" class="carousel slide" data-ride="carousel">
 
 
+<ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+      </ul>
+     
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="row">
+          <div class="col">
+            <img src="8.jpg" alt="Acc1" width="1100" height="500">
+            <h4 class="Ac">Золотые браслеты</h4>
+            <p class="price1">9000тг</p>
+          </div>
+          <div class="col">
+            <img src="1.jpg" alt="Acc1" width="1100" height="500">
+            <h4 class="Ac">Ожерелье из жемчуга</h4>
+            <p class="price1">15000тг</p>
+          </div>
+          <div class="col">
+            <img src="2.jpg" alt="Acc1" width="1100" height="500">
+            <h4 class="Ac">Серьги бабочки</h4>
+            <p class="price1">5000тг</p>
+          </div>
+          <div class="col">
+            <img src="7.jpg" alt="Acc1" width="1100" height="500">
+            <h4 class="Ac">Цепочка с подвеской</h4>
+            <p class="price1">12000тг</p>
+          </div>
+        </div>
+      </div>
 
-.link a:hover{
-    background: #fff;
-    color: var(--exDark);
-}
+      <div class="carousel-item">
+        <div class="row">
+          <div class="col">
+            <img src="3.jpg" alt="Acc1" width="1100" height="500">
+            <h4 class="Ac">Золотые серьги</h4>
+            <p class="price1">15000тг</p>
+          </div>
+          <div class="col">
+            <img src="15.jpg" alt="Acc1" width="1100" height="500">
+            <h4 class="Ac">Комплект колец</h4>
+            <p class="price1">9000тг</p>
+          </div>
+          <div class="col">
+            <img src="9.jpg" alt="Acc1" width="1100" height="500">
+            <h4 class="Ac">Прямоугольная сумка на плечо</h4>
+            <p class="price1">18000тг</p>
+          </div>
+          <div class="col">
+            <img src="10.jpg" alt="Acc1" width="1100" height="500">
+            <h4 class="Ac">Сумка на плечевом ремне с цепочкой</h4>
+            <p class="price1">15000тг</p>
+          </div>
+        </div>
+      </div>
 
-.down1{
-    font-size: 40px;
-    position:relative;
-    bottom:100px;
-    right:400px;
- }
- 
- .down1 a{
-     color:#f9f9f9;
- }
-
- .down2{
-    font-size: 40px;
-    position:relative;
-    bottom:170px;
-    left:440px;
- }
- 
- .down2 a{
-     color:#f9f9f9;
- }
+<div class="carousel-item">
+        <div class="row">
+          <div class="col">
+            <img src="5.jpg" alt="Acc1" width="1100" height="500">
+            <h4 class="Ac">Заколки</h4>
+            <p class="price1">4000тг</p>
+          </div>
+          <div class="col">
+            <img src="6.jpg" alt="Acc1" width="1100" height="500">
+            <h4 class="Ac">Цепочка с подвеской</h4>
+            <p class="price1">8000тг</p>
+          </div>
+          <div class="col">
+            <img src="13.jpg" alt="Acc1" width="1100" height="500">
+            <h4 class="Ac">Комплект колец</h4>
+            <p class="price1">12000тг</p>
+          </div>
+          <div class="col">
+            <img src="12.jpg" alt="Acc1" width="1100" height="500">
+            <h4 class="Ac">Черная сумка на плечо</h4>
+            <p class="price1">15000тг</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+       <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+          <div>
+            <img class="plate1" src = "16.jpg" alt = "">
+            <img class="plate2" src = "17.jpg" alt = "">
+            <button type="button" id="btn1" class="btn btn-outline-dark"><a href="Dress.html">ПЛАТЬЯ</a></button>
+          </div>
+          <div class = "tufli">
+            <p5>ТУФЛИ</p5>
+          </div>
+        
+            
+          <div>
+            <img class="shoes1" src = "туфли1.jfif" alt = "">
+            <img class="shoes2" src = "туфли3.jfif" alt = "">
+            <img class="shoes3" src = "туфли7.jfif" alt = "">
+            <img class="shoes4" src = "туфли8.jfif" alt = "">
+          
+            <img class="shoes5" src = "туфли2.jfif" alt = "">
+            <img class="shoes6" src = "туфли9.jfif" alt = "">
+            <img class="shoes7" src = "туфли6.jfif" alt = "">
+            <img class="shoes8" src = "туфли5.jfif" alt = "">
+        
+          </div>
+    
+    <footer class>
+        <div class = "lastf"> 
+          <p class="name">LADIES FIRST</p>
+          <h2>Be The first to get our newsletter</h2>
+          <div class="search">
+            <form>
+              <label id="email_label" for="email">Email:</label>
+              <input id="email" type="email" name="email" placeholder="Enter your email here..." />
+              <button id="ack" type="submit">Sign Up</button>
+            </form>
+          </div>
+            <div class="link">
+              <a href = "#"><i class = "fab fa-facebook-f"></i></a>
+              <a href = "#"><i class = "fab fa-twitter"></i></a>
+              <a href = "#"><i class = "fab fa-instagram"></i></a>
+            </div>
+            <div class="down">
+              <div class="down1"><a href = "shop.html">SHOP</a></div>
+              <div class="down2"><a href = "Contact.html">CONTACT</a></div>
+            </div>
+          </div>
+     </footer>
+    </body>
+</html>
